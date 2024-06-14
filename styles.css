@@ -31,9 +31,8 @@ body {
 
 .profile-picture-container {
     position: absolute;
-    top: -40px;
-    left: 50%;
-    transform: translateX(-50%);
+    top: -40px; /* Adjust this value as needed */
+    right: 20px; /* Adjust this value to position it outside */
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -143,6 +142,7 @@ body {
 
     .profile-picture-container {
         top: -30px; /* Adjust position for smaller screens */
+        right: 10px; /* Adjust right position for smaller screens */
         width: 70px;
         height: 70px;
     }
