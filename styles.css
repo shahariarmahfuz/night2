@@ -29,27 +29,13 @@ body {
     overflow-y: auto;
 }
 
-.profile-picture-container {
-    position: absolute;
-    top: -40px; /* Adjust this value as needed */
-    right: 20px; /* Adjust this value to position it outside */
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    overflow: hidden;
-    z-index: 1;
-    padding: 25px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    animation: fadeInProfile 2s ease-out;
-}
-
 .profile-picture {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-@keyframes fadeIn {
+@keyframes fadeInProfile {
     0% {
         opacity: 0;
         transform: scale(0.9);
@@ -60,16 +46,6 @@ body {
     }
 }
 
-@keyframes fadeInProfile {
-    0% {
-        opacity: 0;
-        transform: scale(0.5);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
 
 .glass-content {
     color: #ffdf80;
